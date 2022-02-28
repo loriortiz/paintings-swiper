@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lori Ortiz Paintings</title>
+    <meta name="description" content="Early yellow paintings by Lori Ortiz.">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../css/portfolio.css">
+  <style>
+    .swiper-slide p {line-height: 3;margin-bottom: 3px;}
+    img {width: 90vw}
+    @media screen and (min-width: 426px) {
+      .swiper-container {
+        width: auto;
+        height: 76vh;
+      }
+      img {height:60vh; width: auto;}
+    }
+  .albums p {padding : 5px 0}
+  </style>
+</head>
+<body>
+  
+  <header>
+    <h1>Lori Ortiz</h1>
+    <h2>Early Yellow Paintings</h2>
+  </header>
+  <nav> 
+    <ul>
+      <li><a href="../">home</a></li>
+      <li><a href="../green/">green</a></li>
+      <li><a href="../orange/">orange</a></li>
+    </ul>
+  </nav> 
+  <div class="albums">
+    <p>Various media, 1988-98</p>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!--First Slide-->
+        <div class="swiper-slide"> 
+          <img src="images/bed.jpg" alt="abstract"/>
+          <p>"Bed" watermedia on paper</p>
+        </div>
+        <!--Second Slide-->
+        <div class="swiper-slide">
+          <img class="swiper-lazy" src="images/glory.jpg" alt="abstract"/>
+          <p>Old Glory 30 x 30 in. encaustic on chenille</p>
+        </div>
+        <!--Third Slide-->
+        <div class="swiper-slide">
+          <img class="swiper-lazy" src="images/moon.jpg" alt="abstract"/>
+          <p>Moon 10 x 10 in. encaustic on chenille</p>
+        </div>
+        <!-- fourth slide -->
+        <div class="swiper-slide">
+          <img class="swiper-lazy" src="images/firefly.jpg" alt="abstract"/>
+          <p>Firefly 14 x 16 in. oil on panel with frame</p>
+        </div>
+        <!-- <div class="swiper-slide">
+        <img class="swiper-lazy" src="images/cathay.jpg" alt="abstract"/>
+        <p>Cathay</p>
+        </div> -->
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+  <footer>
+    <h5><strong>Email lori at loriortiz.com © Lori Ortiz 2021. All rights reserved.</strong></h5>
+  </footer>
+  <script src="../swiper-bundle.min.js"></script>
+  <script>
+          const swiper = new Swiper('.swiper-container', {
+          lazy: true,
+          spaceBetween: 100,
+          pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          a11y: {
+            prevSlideMessage: 'Previous slide',
+            nextSlideMessage: 'Next slide',
+          },
+        });
+    </script>
+  </body>
+</html>
