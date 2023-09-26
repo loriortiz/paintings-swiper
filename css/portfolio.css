@@ -511,7 +511,7 @@
  .swiper-container-fade .swiper-slide-active .swiper-slide-active {
    pointer-events: auto
  }
-
+/* 
  .swiper-container-cube {
    overflow: visible
  }
@@ -605,7 +605,19 @@
    z-index: 0;
    -webkit-backface-visibility: hidden;
    backface-visibility: hidden
- }
+ } */
+
+ .swiper-slide {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+  .swiper-wrapper {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d
+}
 
  /*portfolio styles*/
 
