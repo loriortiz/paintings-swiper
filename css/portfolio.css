@@ -165,6 +165,24 @@
    justify-content: center;
    color: var(--swiper-navigation-color, var(--swiper-theme-color))
  }
+@media screen and (max-width: 400px) {
+   .swiper-button-next,
+   .swiper-button-prev {
+      display:none;
+   }
+ }
+
+ .swiper-button-next:before,
+ .swiper-button-prev:before {
+   display: none
+ }
+
+ .swiper-button-next.swiper-button-disabled,
+ .swiper-button-prev.swiper-button-disabled {
+   opacity: .35;
+   cursor: auto;
+   pointer-events: none
+ }
 
  .swiper-button-next.swiper-button-disabled,
  .swiper-button-prev.swiper-button-disabled {
