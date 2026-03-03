@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Lori Ortiz Paintings</title>
-    <meta name="description" content="Early orange paintings by Lori Ortiz.">
+    <meta name="description" content="Orange paintings by Lori Ortiz.">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="../css/portfolio.css">
   <style>
@@ -12,75 +12,76 @@
     @media screen and (min-width: 426px) {
       .swiper-container {
         width: auto;
-        height: 76vh;
+        height: auto;
       }
       img {height:60vh; width: auto;}
     }
-    @media screen and (min-height: 812px) {
-      .swiper-container {
-        width: auto;
-        height: 90vh;
-      }
-    } 
   .albums p {padding : 5px 0}
   </style>
 </head>
 <body>
-  <header>
-    <h1>Lori Ortiz</h1>
-    <h2>Orange Paintings</h2>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="../">home</a></li>
-      <li><a href="../flags/">flags</a></li>
-      <li><a href="../green/">green</a></li>
-      <li><a href="../yellow/">yellow</a></li>
-      <li><a href="../bklyn/">bklyn</a></li>
-    </ul>
-  </nav>
-  <div class="albums">
-    <p>Various media, 1998-2005</p>
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <!--First Slide-->
-        <div class="swiper-slide">
-          <img src="images/amys.jpg" alt="abstract">
-          <p>untitled watermedia on paper</p>
+  <div class="page-wrapper">
+    <header>
+      <h1>Lori Ortiz</h1>
+      <h2>Orange Paintings</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../">home</a></li>
+        <li><a href="../flags/">flags</a></li>
+        <li><a href="../green/">green</a></li>
+        <li><a href="../yellow/">yellow</a></li>
+        <li><a href="../bklyn/">bklyn</a></li>
+        <li><a href="../queens/">queens</a></li>
+      </ul>
+    </nav>
+    <div class="albums">
+      <p>Various media</p>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <!--First Slide-->
+          <div class="swiper-slide">
+            <img src="images/amys.jpg" alt="abstract">
+            <p>untitled, 1999, watermedia on paper</p>
+          </div>
+          <!--Second Slide-->
+          <div class="swiper-slide">
+            <img class="swiper-lazy" src="images/atrium.jpeg" alt="abstract">
+            <p>"Atrium," 2025, watermedia on paper, 9.2 x 9.4 in.</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper-lazy" src="images/berth.jpg" alt="abstract">
+            <p>"Berth," 2005, oil on linen, 20 x 16 in. </p>
+          </div>
+          <!--Third Slide-->
+          <div class="swiper-slide">
+            <img class="swiper-lazy" src="images/domino1.jpg" alt="abstract">
+            <p>"Domino," 1999 in. oil on panel, 20 in.</p>
+          </div>
+          <!-- fourth slide -->
+          <div class="swiper-slide">
+            <img class="swiper-lazy" src="images/martianMartini.jpg" alt="abstract">
+            <p>"Martian Martini," 2003, oil on linen, 18 x 18 in.</p>
+          </div>
+          <!-- fourth slide -->
+          <div class="swiper-slide">
+            <img class="swiper-lazy" src="images/trouble.jpg" alt="abstract">
+            <p>"Trouble" 2000, watermedia on paper, 20 in.</p>
+          </div>
+          <!-- <div class="swiper-slide">
+          <img class="swiper-lazy" src="images/cathay.jpg" alt="abstract"/>
+          <p>Cathay</p>
+          </div> -->
         </div>
-        <!--Second Slide-->
-        <div class="swiper-slide">
-          <img class="swiper-lazy" src="images/berth.jpg" alt="abstract">
-          <p>Berth 20 x 16 in. oil on linen</p>
-        </div>
-        <!--Third Slide-->
-        <div class="swiper-slide">
-          <img class="swiper-lazy" src="images/domino1.jpg" alt="abstract">
-          <p>"Domino" 20 in. oil on panel</p>
-        </div>
-        <!-- fourth slide -->
-        <div class="swiper-slide">
-          <img class="swiper-lazy" src="images/martianMartini.jpg" alt="abstract">
-          <p>Martian Martini 18 x 18 in. oil on linen</p>
-        </div>
-        <!-- fourth slide -->
-        <div class="swiper-slide">
-          <img class="swiper-lazy" src="images/trouble.jpg" alt="abstract">
-          <p>"Trouble" watermedia on paper</p>
-        </div>
-        <!-- <div class="swiper-slide">
-        <img class="swiper-lazy" src="images/cathay.jpg" alt="abstract"/>
-        <p>Cathay</p>
-        </div> -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
     </div>
+    <footer>
+      <h5><strong>Email lori at loriortiz.com © Lori Ortiz 2026. All rights reserved.</strong></h5>
+    </footer>
   </div>
-  <footer>
-    <h5><strong>Email lori at loriortiz.com © Lori Ortiz 2025. All rights reserved.</strong></h5>
-  </footer>
   <script src="../swiper-bundle.min.js"></script>
   <script>
           const swiper = new Swiper('.swiper-container', {

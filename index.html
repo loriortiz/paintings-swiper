@@ -12,20 +12,21 @@
     @media screen and (min-width: 426px) {
       .swiper-container {
         width: auto;
-        height: 76vh;
+        height: auto;
       }
       img {height:60vh; width: auto;}
     }
-    @media screen and (min-height: 812px) {
+  /*   @media screen and (min-height: 812px) {
       .swiper-container {
         width: auto;
         height: 90vh;
       }
-    }
+    } */
     .albums p {padding : 5px 0}
   </style>
 </head>
 <body>
+  <div class="page-wrapper">
   <header>
     <h1>Lori Ortiz</h1>
     <h2>Paintings</h2>
@@ -36,7 +37,8 @@
       <li><a href="green/">green</a></li>
       <li><a href="yellow/">yellow</a></li>
       <li><a href="orange/">orange</a></li>
-      <li><a href="bklyn">bklyn</a></li>
+      <li><a href="bklyn/">bklyn</a></li>
+      <li><a href="queens/">queens</a></li>
     </ul>
   </nav>
   <div class="albums">
@@ -67,7 +69,7 @@
         <p>Superfine 2000 watermedia on paper 12.5 x 11.5 in.</p>
         </div>
         <div class="swiper-slide">
-          <img class="swiper-lazy" src="images/green5.jpg" alt="abstract">
+          <img class="swiper-lazy" src="images/scope.jpg" alt="abstract">
           <p>Scope 1999 watermedia on paper</p>
         </div>
         <div class="swiper-slide">
@@ -84,9 +86,11 @@
       <div class="swiper-button-prev"></div>
     </div>
   </div>
+
   <footer>
-    <h5><strong>Email lori at loriortiz.com © Lori Ortiz 2025. All rights reserved. <a style="color:white" href="https://loriortiz.com/cv.pdf">CV</a></strong></h5>
+    <h5><strong>Email lori at loriortiz.com © Lori Ortiz 2026. All rights reserved. <a style="color:white" href="https://loriortiz.com/cv.pdf">CV</a> @lorionyc</strong></h5>
   </footer>
+  </div>
   <script src="swiper-bundle.min.js"></script>
   <script>
           const swiper = new Swiper('.swiper-container', {

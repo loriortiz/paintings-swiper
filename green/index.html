@@ -12,77 +12,74 @@
     @media screen and (min-width: 426px) {
       .swiper-container {
         width: auto;
-        height: 76vh;
+        height: auto;
       }
       img {height:60vh; width: auto;}
     }
-    @media screen and (min-height: 812px) {
-      .swiper-container {
-        width: auto;
-        height: 90vh;
-      }
-    } 
   .albums p {padding : 5px 0}
   </style>
 </head>
 <body>
-  <header>
-    <h1>Lori Ortiz</h1>
-    <h2>Green Paintings</h2>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="../">home</a></li>
-      <li><a href="../flags/">flags</a></li>
-      <li><a href="../yellow/">yellow</a></li>
-      <li><a href="../orange/">orange</a></li>
-      <li><a href="../bklyn/">bklyn</a></li>
-    </ul>
-  </nav>
-  <div class="albums">
-    <p>Various media</p>
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <!--First Slide-->
-        <div class="swiper-slide">
-          <img src="images/stones.jpg" alt="abstract">
-          <p>"cut-outs," 1998 watermedia on paper 8 x 9 in.</p>
-        </div>
-        <div class="swiper-slide">
-          <img class="swiper-lazy" src="images/clubs.jpg" alt="abstract">
-          <p>"Clubs," 1989 woodblock print 6 x 4 in.</p>
-        </div>
-        <div class="swiper-slide">
-          <img class="swiper-lazy" src="images/hedge.jpg" alt="abstract">
-          <p>"Hedge," 1988 oil on canvas 30 x 30 in.</p>
-        </div>
-        <!--Second Slide-->
-        <div class="swiper-slide">
-          <img class="swiper-lazy" src="images/gate.jpg" alt="abstract">
-          <p>"Garden Gate," 1988 oil on canvas 30 x 30 in.</p>
-        </div>
-        <!--Third Slide-->
-        <div class="swiper-slide">
-        <img class="swiper-lazy" src="images/shutter.jpg" alt="abstract">
-        <p>"Shutter," 1990 oil on canvas 36 x 30 in.</p>
-        </div>
-        <div class="swiper-slide">
-          <img class="swiper-lazy" src="images/iron-will.jpg" alt="prison window">
-          <p>"Iron Will," 1991 oil on panel 20 x 30 in.</p>
+  <div class="page-wrapper">
+    <header>
+      <h1>Lori Ortiz</h1>
+      <h2>Green Paintings</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../">home</a></li>
+        <li><a href="../flags/">flags</a></li>
+        <li><a href="../yellow/">yellow</a></li>
+        <li><a href="../orange/">orange</a></li>
+        <li><a href="../bklyn/">bklyn</a></li>
+        <li><a href="../queens/">queens</a></li>
+      </ul>
+    </nav>
+    <div class="albums">
+      <p>Various media</p>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <!--First Slide-->
+          <div class="swiper-slide">
+            <img src="images/stones.jpg" alt="abstract">
+            <p>"cut-outs," 1998 watermedia on paper 8 x 9 in.</p>
           </div>
-        <div class="swiper-slide">
-        <img class="swiper-lazy" src="images/waiting-room.jpg" alt="abstract">
-        <p>"Waiting Room" 1989  gouache on paper 20 x 20 in.</p>
+          <div class="swiper-slide">
+            <img class="swiper-lazy" src="images/clubs.jpg" alt="abstract">
+            <p>"Clubs," 1989 woodblock print 6 x 4 in.</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper-lazy" src="images/hedge.jpg" alt="abstract">
+            <p>"Hedge," 1988 oil on canvas 30 x 30 in.</p>
+          </div>
+          <!--Second Slide-->
+          <div class="swiper-slide">
+            <img class="swiper-lazy" src="images/gate.jpg" alt="abstract">
+            <p>"Garden Gate," 1988 oil on canvas 30 x 30 in.</p>
+          </div>
+          <!--Third Slide-->
+          <div class="swiper-slide">
+          <img class="swiper-lazy" src="images/shutter.jpg" alt="abstract">
+          <p>"Shutter," 1990 oil on canvas 36 x 30 in.</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper-lazy" src="images/iron-will.jpg" alt="prison window">
+            <p>"Iron Will," 1991 oil on panel 20 x 30 in.</p>
+            </div>
+          <div class="swiper-slide">
+          <img class="swiper-lazy" src="images/waiting-room.jpg" alt="abstract">
+          <p>"Waiting Room" 1989  gouache on paper 20 x 20 in.</p>
+          </div>
         </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
     </div>
+    <footer>
+      <h5><strong>Email lori at loriortiz.com © Lori Ortiz 2026. All rights reserved.</strong></h5>
+    </footer>
   </div>
-  <footer>
-    <h5><strong>Email lori at loriortiz.com © Lori Ortiz 2025. All rights reserved.</strong></h5>
-  </footer>
   <script src="../swiper-bundle.min.js"></script>
   <script>
           const swiper = new Swiper('.swiper-container', {

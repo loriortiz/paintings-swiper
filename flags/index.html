@@ -12,77 +12,75 @@
     @media screen and (min-width: 426px) {
       .swiper-container {
         width: auto;
-        height: 76vh;
+        height: auto;
       }
       img {height:60vh; width: auto;}
     }
-    @media screen and (min-height: 812px) {
-      .swiper-container {
-        width: auto;
-        height: 90vh;
-      }
-    } 
+   
   .albums p {padding : 5px 0}
   </style>
 </head>
 <body>
-  <header>
-    <h1>Lori Ortiz</h1>
-    <h2>Flag Paintings</h2>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="../">home</a></li>
-      <li><a href="../green/">green</a></li>
-      <li><a href="../yellow/">yellow</a></li>
-      <li><a href="../orange/">orange</a></li>
-      <li><a href="../bklyn/">bklyn</a></li>
-    </ul>
-  </nav>
-  <div class="albums">
-    <p>Water media on paper 2025 unless stated.</p>
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <!--First Slide-->
-        <div class="swiper-slide">
-          <img src="red1.jpg" alt="abstract">
-          <p>"Red Flag I," 8 x 8 in.</p>
-        </div>
-        <div class="swiper-slide">
-          <img class="swiper-lazy" src="red2.jpg" alt="abstract">
-          <p>"Red Flag II," 9 x 9 in.</p>
-        </div>
-        <div class="swiper-slide">
-          <img class="swiper-lazy" src="red3.jpg" alt="abstract">
-          <p>"Red Flag III," 9 x 9 in.</p>
-        </div>
-        <!--Second Slide-->
-        <div class="swiper-slide">
-          <img class="swiper-lazy" src="red4.jpg" alt="abstract">
-          <p>"Red Flag IV (Birthday Fête)," 9 x 9 in.</p>
-        </div>
-        <!--Third Slide-->
-        <div class="swiper-slide">
-        <img class="swiper-lazy" src="sentinels.jpg" alt="abstract">
-        <p>"Sentinels," 8 x 8 in.</p>
-        </div>
-        <div class="swiper-slide">
-          <img class="swiper-lazy" src="../images/starlings.jpg" alt="diamond-shaped">
-          <p>"Starlings," 2005 oil on panel 20 in.</p>
+  <div class="page-wrapper">
+    <header>
+      <h1>Lori Ortiz</h1>
+      <h2>Flag Paintings</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../">home</a></li>
+        <li><a href="../green/">green</a></li>
+        <li><a href="../yellow/">yellow</a></li>
+        <li><a href="../orange/">orange</a></li>
+        <li><a href="../bklyn/">bklyn</a></li>
+        <li><a href="../queens/">queens</a></li>
+      </ul>
+    </nav>
+    <div class="albums">
+      <p>Water media on paper 2025 unless stated.</p>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <!--First Slide-->
+          <div class="swiper-slide">
+            <img src="red1.jpg" alt="abstract">
+            <p>"Red Flag I," 8 x 8 in.</p>
           </div>
-        <div class="swiper-slide">
-        <img class="swiper-lazy" src="../yellow/images/glory.jpg" alt="abstract">
-        <p>"Old Glory" 1999  Encaustic on Chenille 30 x 30 in.</p>
+          <div class="swiper-slide">
+            <img class="swiper-lazy" src="red2.jpg" alt="abstract">
+            <p>"Red Flag II," 9 x 9 in.</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper-lazy" src="red3.jpg" alt="abstract">
+            <p>"Red Flag III," 9 x 9 in.</p>
+          </div>
+          <!--Second Slide-->
+          <div class="swiper-slide">
+            <img class="swiper-lazy" src="red4.jpg" alt="abstract">
+            <p>"Red Flag IV (Birthday Fête)," 9 x 9 in.</p>
+          </div>
+          <!--Third Slide-->
+          <div class="swiper-slide">
+          <img class="swiper-lazy" src="sentinels.jpg" alt="abstract">
+          <p>"Sentinels," 8 x 8 in.</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper-lazy" src="../images/starlings.jpg" alt="diamond-shaped">
+            <p>"Starlings," 2005 oil on panel 20 in.</p>
+            </div>
+          <div class="swiper-slide">
+          <img class="swiper-lazy" src="../yellow/images/glory.jpg" alt="abstract">
+          <p>"Old Glory" 1999  Encaustic on Chenille 30 x 30 in.</p>
+          </div>
         </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
     </div>
+    <footer>
+      <h5><strong>Email lori at loriortiz.com © Lori Ortiz 2026. All rights reserved.</strong></h5>
+    </footer>
   </div>
-  <footer>
-    <h5><strong>Email lori at loriortiz.com © Lori Ortiz 2025. All rights reserved.</strong></h5>
-  </footer>
   <script src="../swiper-bundle.min.js"></script>
   <script>
           const swiper = new Swiper('.swiper-container', {
